@@ -1,5 +1,5 @@
 {
-    "name": "Simple/contact",
+    "name": "simple/contact",
     "description": "This will send email to admin and save contact query in database.",
     "type": "library",
     "license": "MIT",
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Simple\\Contact\\": "src/"
+            "simple\\Contact\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Simple\\Contact\\ContactServiceProvider"
+                "simple\\Contact\\ContactServiceProvider"
             ]
         }
     }

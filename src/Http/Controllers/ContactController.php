@@ -1,13 +1,13 @@
 <?php
 
-namespace Simple\Contact\Http\Controllers;
+namespace simple\Contact\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
-use Simple\Contact\Models\Contact;
-use Simple\Contact\Mail\ContactMailable;
-use Simple\Contact\Http\Requests\ContactRequest;
+use simple\Contact\Models\Contact;
+use simple\Contact\Mail\ContactMailable;
+use simple\Contact\Http\Requests\ContactRequest;
 
 class ContactController extends Controller
 {

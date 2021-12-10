@@ -1,0 +1,26 @@
+{
+    "name": "Simple/contact",
+    "description": "This will send email to admin and save contact query in database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jai Singh",
+            "email": "technicalsimplet2s@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Simple\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simple\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}

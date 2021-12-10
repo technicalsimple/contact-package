@@ -7,7 +7,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 use technicalsimple\Contact\Models\Contact;
 use technicalsimple\Contact\Mail\ContactMailable;
-use technicalsimple\Contact\Http\Requests\ContactRequest;
 
 class ContactController extends Controller
 {
@@ -15,7 +14,7 @@ class ContactController extends Controller
         return view('contact::contact');
     }
 
-    public function store(ContactRequest $request)
+    public function store(Request $request)
     {
         $admin = config('contact.admin');
         Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message,$request->name,$admin));

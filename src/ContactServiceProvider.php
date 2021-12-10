@@ -1,6 +1,6 @@
 <?php
 
-namespace Simple\Contact;
+namespace technicalsimple\Contact;
 use Carbon\Laravel\ServiceProvider;
 
 class ContactServiceProvider extends  ServiceProvider

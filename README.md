@@ -1,7 +1,7 @@
 # Contact Us Form Package
 
 [![Issues](https://img.shields.io/github/issues/technicalsimple/contact-package.svg?style=flat-square)](https://github.com/technicalsimple/contact-package/issues)
-[![Stars](https://img.shields.io/github/issues/technicalsimple/contact-package.svg?style=flat-square)](https://github.com/technicalsimple/contact-package/stargazers)
+[![Stars](https://img.shields.io/github/stars/technicalsimple/contact-package.svg?style=flat-square)](https://github.com/technicalsimple/contact-package/stargazers)
 
 
 A Powerful package for handling contact us . It will send email to admin and save contact query in database in Laravel. Supports Laravel 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.0, 7.0, and 8.0+.

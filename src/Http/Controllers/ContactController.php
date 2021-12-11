@@ -16,6 +16,11 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+           'name' => 'required',
+           'email' => 'required',
+           'message' => 'required',
+        ]);
         $admin = config('contact.admin');
         Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message,$request->name,$admin));
         Contact::create($request->all());

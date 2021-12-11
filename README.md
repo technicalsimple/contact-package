@@ -1,8 +1,12 @@
 # Contact Us Form Package
 
-[![Issues](https://img.shields.io/github/issues/technicalsimple/contact-package.svg?style=flat-square)](https://github.com/technicalsimple/contact-package/issues)
+[![Issues](https://img.shields.io/github/issues/technicalsimple/contact-package.svg?
 
-[![Stars](https://img.shields.io/github/issues/technicalsimple/contact-package.svg?style=flat-square)](https://github.com/technicalsimple/contact-package/stargazers)
+style=flat-square)](https://github.com/technicalsimple/contact-package/issues)
+
+[![Stars]( https://img.shields.io/github/issues/technicalsimple/contact-package.svg?
+
+style=flat-square)](https://github.com/technicalsimple/contact-package/stargazers)
 
 
 A Powerful package for handling contact us . It will send email to admin and save contact query in database in Laravel. Supports Laravel 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.0, 7.0, and 8.0+.
@@ -30,9 +34,8 @@ Laravel 5.4 and below use:
 
 * Laravel 5.5 and up Uses package auto discovery feature, no need to edit the config/app.php file.
 
-Laravel 5.4 and below Add the package to your application service providers in config/app.php file.
+* Laravel 5.4 and below Add the package to your application service providers in config/app.php file.
 
-    ```php 
     'providers' => [
 
         ...
@@ -44,8 +47,8 @@ Laravel 5.4 and below Add the package to your application service providers in c
 
     ],    
    ```
-   ### Publish All Assets
-   ```bash
+   # Publish All Assets
+ 
      php artisan vendor:publish
    ```
  

@@ -51,7 +51,7 @@ Laravel 5.4 and below use:
  After publish ContactServiceProvider Goto the app/config/contact.php
  and change admin email details
 
- Also Please setup email configration details in env file.
+ Also Please setup email configuration details in env file.
 
 
 

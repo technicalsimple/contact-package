@@ -7,26 +7,32 @@
 
 A Powerful package for handling contact us . It will send email to admin and save contact query in database in Laravel. Supports Laravel 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.0, 7.0, and 8.0+.
 
-# Installation
+## Installation
 This package is very easy to set up. There are only couple of steps.
 
-# Composer
+### Composer
+
 From your projects root folder in terminal run:
 
 Laravel 5.8 and up use:
 
+```
     composer require technicalsimple/contact
+```
 
 Laravel 5.4 and below use:
 
+```
     composer require technicalsimple/contact 1.0.0
+```
 
 # Service Provider
 
-Laravel 5.5 and up Uses package auto discovery feature, no need to edit the config/app.php file.
+* Laravel 5.5 and up Uses package auto discovery feature, no need to edit the config/app.php file.
 
 Laravel 5.4 and below Add the package to your application service providers in config/app.php file.
 
+    ```php 
     'providers' => [
 
         ...
@@ -37,16 +43,18 @@ Laravel 5.4 and below Add the package to your application service providers in c
         \technicalsimple\Contact\ContactServiceProvider::class,
 
     ],    
-
+   ```
+   ### Publish All Assets
+   ```bash
      php artisan vendor:publish
-
+   ```
  
  After publish ContactServiceProvider Goto the app/config/contact.php
  and change admin email details
 
  Also Please setup email configration details in env file.
 
- 
+
 
    
 

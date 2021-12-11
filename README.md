@@ -29,8 +29,9 @@ Laravel 5.4 and below use:
 
 * Laravel 5.5 and up Uses package auto discovery feature, no need to edit the config/app.php file.
 
-  Laravel 5.4 and below Add the package to your application service providers in config/app.php file.
+* Laravel 5.4 and below Add the package to your application service providers in config/app.php file.
 
+  ```
     'providers' => [
 
         ...
@@ -42,12 +43,11 @@ Laravel 5.4 and below use:
 
     ],    
    ```
-   
+
 # Publish All Assets
- 
+   ```
      php artisan vendor:publish
    ```
- 
  After publish ContactServiceProvider Goto the app/config/contact.php
  and change admin email details
 

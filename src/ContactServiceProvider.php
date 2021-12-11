@@ -20,6 +20,6 @@ class ContactServiceProvider extends  ServiceProvider
             __DIR__.'/config/contact.php' => config_path('contact.php'),
             __DIR__.'/views' => resource_path('views/vendor/contact'),
             __DIR__.'/Http/Controllers/ContactController.php' => app_path('Http/Controllers/ContactController.php'),
-        ],'views');
+        ]);
     }
 }

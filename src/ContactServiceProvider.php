@@ -7,7 +7,7 @@ class ContactServiceProvider extends  ServiceProvider
 {
     public function register()
     {
-        $this->app->make('Http/Controllers/ContactController.php');
+      //
     }
 
     public function boot()

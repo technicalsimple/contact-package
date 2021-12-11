@@ -13,7 +13,7 @@ This package is very easy to set up. There are only couple of steps.
 
 From your projects root folder in terminal run:
 
-Laravel 5.8 and up use:
+Laravel 5.5 and up use:
 
 ```
     composer require technicalsimple/contact

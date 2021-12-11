@@ -46,7 +46,7 @@ Laravel 5.4 and below use:
 
 # Publish All Assets
    ```
-     php artisan vendor:publish
+    php artisan vendor:publish --provider="technicalsimple\Contact\ContactServiceProvider" --tag="views"
    ```
  After publish ContactServiceProvider Goto the app/config/contact.php
  and change admin email details

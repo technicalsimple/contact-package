@@ -7,8 +7,7 @@ class ContactServiceProvider extends  ServiceProvider
 {
     public function register()
     {
-        
-
+      //
     }
 
     public function boot()
@@ -20,6 +19,7 @@ class ContactServiceProvider extends  ServiceProvider
         $this->publishes([
             __DIR__.'/config/contact.php' => config_path('contact.php'),
             __DIR__.'/views' => resource_path('views/vendor/contact'),
+            __DIR__.'/Http/Controllers/ContactController.php' => app_path('Http/Controllers/ContactController.php'),
         ]);
     }
 }

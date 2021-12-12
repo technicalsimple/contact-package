@@ -53,6 +53,15 @@ Laravel 5.4 and below use:
 
  Also Please setup email configuration details in env file.
 
+ # Migrations
+
+   This will create contacts table.
+
+      ```
+       php artisan migrate
+      ```
+
+
 
 
    

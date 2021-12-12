@@ -49,8 +49,7 @@ Laravel 5.4 and below use:
     php artisan vendor:publish --provider="technicalsimple\Contact\ContactServiceProvider"
    ```
  After publish ContactServiceProvider Goto the app/config/contact.php
- and change admin email details. Goto app\config\contact.php
-
+ and change admin email details.
   ```
     <?php
 

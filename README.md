@@ -56,9 +56,11 @@ Laravel 5.4 and below use:
  # Migrations
 
    This will create contacts table.
-      ```
-       php artisan migrate
-      ```
+
+   ```
+    php artisan migrate
+   ```
+   
 
 
 
